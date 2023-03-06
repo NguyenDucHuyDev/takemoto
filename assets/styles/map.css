@@ -1,0 +1,270 @@
+.m-gi-map-svg .m-gi-map-area{fill:#7d8998;transition:all .3s .2s}@media only screen and (min-width:769px){.m-gi-map-svg .m-gi-map-click-area:hover, .m-gi-map-svg .m-gi-map-click-area:focus, .m-gi-map-svg .m-gi-map-click-area.m-active{fill:#5f6b7a;cursor:pointer;pointer-events: auto;stroke:#232f3e;stroke-width:2px;paint-order: stroke;}}
+.m-gi-map-svg{
+    width: 1100px;
+    height:610.11px;
+}
+.m-gi-pin-wrapper{
+    position: relative;
+    text-align: center;
+}
+.m-gi-pin-4,
+.m-gi-pin-6,
+.m-gi-pin-7,
+.m-gi-pin-9,
+.m-gi-pin-10,
+.m-gi-pin-13,
+.m-gi-pin-14,
+.m-gi-pin-15,
+.m-gi-pin-19,
+.m-gi-pin-62{
+ position: absolute;
+ background-color: #02A4A6;
+ display: block;
+ transition: box-shadow .2s ease-out;
+ width: 12px;
+ height: 12px;
+ border: 2px solid #fff;
+ background-color: #02A4A6;
+ border-radius: 50%;
+ font-family: OpenSans,Helvetica,Arial,sans-serif;
+ cursor: pointer;
+}
+.m-gi-pin-4{
+    left: 51%;
+    bottom: 67%;
+}
+.m-gi-pin-6{
+    left: 47.3%;
+    bottom: 62%;
+}
+.m-gi-pin-7{
+    left: 45.5%;
+    bottom: 62%;
+}
+.m-gi-pin-9{
+    left: 25.3%;
+    bottom: 61%;
+    background-color: #DB364E !important;
+}
+.m-gi-pin-10{
+    left: 49.5%;
+    bottom: 60.5%;
+}
+.m-gi-pin-13{
+    left: 48.3%;
+    bottom: 59.5%;
+}
+.m-gi-pin-14{
+    left: 49%;
+    bottom: 58.7%;
+}
+.m-gi-pin-15{
+    left: 49.7%;
+    bottom: 58.3%;
+}
+.m-gi-pin-19{
+    left: 46.8%;
+    bottom: 55.7%;
+}
+
+.m-gi-pin-62{
+    left: 51.5%;
+    bottom: 23.5%;
+}
+.sign{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.sign__blue{
+    background-color: #02A4A6;
+    display: block;
+    transition: box-shadow .2s ease-out;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    background-color: #02A4A6;
+    border-radius: 50%;
+    font-family: OpenSans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+}
+.sign__regions{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.sign__red{
+    background-color: #DB364E ;
+    display: block;
+    transition: box-shadow .2s ease-out;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-family: OpenSans,Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+.listMaps{
+    display: flex;
+    justify-content: space-between;
+}
+.listMaps__list{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    cursor: pointer;
+    color:red;
+    font-weight: 700;
+    font-size: 20px;
+}
+.reportHome__items{
+    gap:30px;
+}
+.listMaps__learn{
+    font-size: 18px;
+    color:#ec7211;
+}
+.modalMaps__items{
+    border: 1px solid #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    padding:20px;
+    align-items: self-start;
+    border-radius: 4px;
+    background-color: #Fff;
+}
+.modalMaps{
+    position: absolute;
+    cursor: pointer;
+    min-width: 200px;
+    left: 100%;
+    text-align: left;
+    z-index:999;
+}
+.modalMaps__name{
+    color:#000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#tableModalMaps{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index:99999;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+
+.tableModalMaps__main{
+    position: relative;
+    overflow-y: auto;
+    width: 85%;
+    min-height: 450px;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+    margin:50px 0;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding:50px 20px;
+    cursor: pointer;
+}
+
+.tableModalMaps__header{
+    font-size: 25px;
+    font-weight: 600;
+    color:#000;
+}
+.tableModalMaps__subtitle{
+    font-weight: 400;
+    color: #033160;
+}
+.regionsAWS{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.tableModalMaps__title{
+    color:#000;
+    font-weight: 500;
+    font-size: 18px;
+}
+.table__regionsAWS{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 30px 20px;
+    margin-top:10px;
+}
+.regionsAWS--item{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.regionsAWS--hr{
+    width: 100%;
+    height: 1px;
+    background-color: #5e6e7f;
+}
+.tableModalMaps__col2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap:20px;
+}
+.tableModalMaps__flexCol{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.tableModalMaps__flexRow{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    flex:1;
+}
+.tableModalMaps__time{
+    color:#5e6e7f;
+    font-weight: 700;
+    font-size: 14px;
+    font-style: italic;
+}
+.between{
+    justify-content: space-between;
+}
+.africa,
+.america{
+    border:unset;
+    box-shadow: unset;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.africa,
+.male{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+#closeModalMaps1{
+    position: absolute;
+    top:0;
+    right:0;
+    margin:15px 15px 0 0;
+    cursor: pointer;
+}
+#closeModalMaps1:hover svg{
+    fill:#ec7211;
+}

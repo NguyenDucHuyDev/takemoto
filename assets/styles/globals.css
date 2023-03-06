@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#layout_home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+  }
+#content {
+    flex: 1 1 0%;
+}
+#header {
+    background-color: #232f3e;
+    color: #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}

@@ -1,0 +1,79 @@
+.footer__main{
+    display: flex;
+    gap:30px;
+}
+
+.footer__info{
+    display: flex;
+    gap:30px;
+    flex:1 1 0%;
+}
+.footer__info--desMain{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+    margin-top: 15px;
+}
+.footer__background{
+    padding:30px 0;
+    background-color: #1E2832;
+    color: #fff;
+}
+.footer__info--title{
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer__info--des{
+    color:#ddd;
+    font-weight: 400;
+    font-size: 14px;
+}
+.footer__info--des:hover{
+    cursor: pointer;
+    color:#ec7211;
+}
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    max-width: 200px;
+}
+.footer__iconSocial{
+    display: flex;
+    gap:5px;
+}
+.footer__btn{
+    text-align: center;
+    margin: 0;
+}
+.footer__isAWS{
+    font-size: 14px;
+    color:#ddd;
+}
+.footer__info--item{
+    flex:1;
+}
+.footer__final{
+    background-color: #f2f4f4;
+    padding:20px 0;
+}
+.footer__final--main{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.footer__final--main>div{
+    font-size: 14px;
+    color:#0972d3;;
+}
+.footer__final--year{
+    color:#1E2832 !important;
+}
+.footer__final--main>div:hover {
+   color:#ec7211;
+   cursor: pointer;
+}
+.tableModalMaps__main{
+    display: flex;
+    flex-direction: column;
+}
